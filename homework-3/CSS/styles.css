@@ -1,0 +1,113 @@
+body{
+    font-size: 16px;
+background-color: #fff;
+}
+body{
+    background-color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+  color: #626262;
+  font-weight: normal;
+}
+ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+}  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: 0;
+}
+.menu-item{
+    display: inline-block;
+}
+.holova {
+    padding-top: 72px;
+  padding-bottom: 98px;
+}
+.navigation {
+    padding-left: 30px;
+}
+.menu {
+    font-size: 0;
+    text-align: center;
+}
+.menu_item {
+    display: inline-block;
+}
+.menu-item:not(:last-child){
+    margin-right: 100px;
+}
+.menu-item_link {
+    color: #626262;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.714;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+.menu-item_link:hover {
+    color: #03a9f4;
+  }
+.content-box {
+    display: inline-block;
+    max-width: 50%;
+    margin-bottom: 130px;
+    font-size: 14px;
+    vertical-align: top;
+}
+.img-container{
+    margin-bottom: -130px;
+    overflow: hidden;
+}
+.kartinka {
+    width: 420px;
+    height: 280px;
+    margin-bottom: 32px;  
+}
+.tehp1 {
+    margin-bottom: 32px;
+    font-family: "Ubuntu", sans-serif;
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 300;
+}
+.tehh3{
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 36px;
+      }     
+.tehruba {
+    line-height: 1.714;
+}
+.korobka{
+    text-align: center;
+}
+.knopka {
+    display: inline-block;
+    width: 164px;
+    height: 60px;
+    border: rgb(98, 98, 98) solid 1px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 60px;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-container{
+    text-align: center;
+}
+.left {
+    padding-right: 30px;
+  }  
+.right {
+    padding-left: 30px;
+  }
