@@ -63,14 +63,20 @@ ul {
     font-size: 14px;
     vertical-align: top;
 }
-.img-container{
+.container-lifestyle{
     margin-bottom: -130px;
     overflow: hidden;
+    
+}
+.img-container{
+    margin-bottom: 30px;
+
 }
 .kartinka {
     width: 420px;
     height: 280px;
     margin-bottom: 32px;  
+    
 }
 .tehp1 {
     margin-bottom: 32px;
@@ -103,7 +109,11 @@ ul {
     text-align: center;
 }
 .btn-container{
+    display: inline-block;
     text-align: center;
+    vertical-align: top;
+    margin-left: -120px;
+    margin-top: 70px;
 }
 .left {
     padding-right: 30px;
