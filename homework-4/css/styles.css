@@ -14,7 +14,6 @@ font-family: 'Montserrat', sans-serif; */
    
 }
 .header{
-    margin-bottom: 120px;
     margin-top: 40px;
 }
 .menu{
@@ -52,7 +51,7 @@ font-family: 'Montserrat', sans-serif; */
     /* border: rgb(218, 218, 22) 1px solid; */ 
 }
 .services{
-    padding: 100px 0 80px;
+    padding: 100px ;
 }
 .title{
     text-align: center;
@@ -69,13 +68,14 @@ font-family: 'Montserrat', sans-serif; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .logo {
     text-decoration: none; 
     line-height: normal;
     font-size: 30px;
     color:#95e1d3;
+    font-weight: bold;
 }
 .li-item{
 }
@@ -89,6 +89,7 @@ font-family: 'Montserrat', sans-serif; */
     color:#95e1d3;
     font-size: 15px;
     /* font-weight: 150px; */
+
 }
 .img-container{
 }
@@ -117,6 +118,7 @@ height: 2px;
 width: 0;
 background-color:  rgb(243, 129, 129);;
 transition: 0.2s linear all;
+top: 3px;
 }
 
 .menu-item_link:hover::after {
@@ -213,8 +215,8 @@ transition: 0.2s linear all;
 .title::after{
     content: "";
     background-color: rgb(243, 129, 129);
-    position: absolute;
-    left:49%;
+    /* position: absolute; */
+    left:50%;
     width: 60px;
     height: 3px;
     display: block;
@@ -242,11 +244,14 @@ justify-content: space-between;
 }
 .profetion {
     font-size: 15px;
-        font-family: "Roboto";
+        font-family: "Roboto" ;
         color: rgb(179, 179, 179);
         line-height: 1.6;
         text-align: center;
-        margin-top: 20px;
+        margin-top: 5px;
+        font-style: italic;
+
+          
 }
 .last{
     display: flex;
@@ -255,14 +260,7 @@ justify-content: space-between;
     margin-top: 100px;
 
 }
-.box-btn {      
-margin-top: 100px;
-padding-bottom: 12px;
-    /* text-align: right; */
-    /* margin-left: 522px; */
-    /* padding: 4px; */
-    /* margin-top: ; */
-}
+
 .mini-title::before{
     content:"";
     display: inline-block;
@@ -276,44 +274,46 @@ padding-bottom: 12px;
 }
 .photo::before{
     content:"";
-    background: url(../img/ALARM.jpg) no-repeat;
-    background-position: center;
+    background: url(../img/ALARM.jpg) top center no-repeat;
+    /* background-position: center; */
 }
 .web::before{
     content:"";
-background: url(../img/LINE\ GRAPH.jpg) no-repeat;
-background-position: center;
+background: url(../img/LINE\ GRAPH.jpg) top center no-repeat;
+/* background-position: center; */
 }
 .creat::before{
     content:"";
-background: url(../img/COMPUTER\ _\ OK.jpg) no-repeat;
-background-position: center;
+background: url(../img/COMPUTER\ _\ OK.jpg) top center no-repeat;
+/* background-position: center; */
 }
 .soe::before{
     content:"";
-background: url(../img/BOOK\ 2.jpg) no-repeat;
-background-position: center;
+background: url(../img/BOOK\ 2.jpg) top center no-repeat;
+/* background-position: center; */
 
 }
 .style::before{
     content:"";
-background: url(../img/HOME.jpg) no-repeat;
-background-position: center;
+background: url(../img/HOME.jpg) top center no-repeat;
+/* background-position: center; */
 }
 .dig::before{
     content:"";
-background: url(../img/IMAGE.jpg) no-repeat;
-background-position: center;
+background: url(../img/IMAGE.jpg) top center no-repeat;
+/* background-position: center; */
 } 
 .liner{
+    display: block;
         background-color: rgb(229, 229, 229);
         position: absolute;
-        left: 357px;
-        top: 1850px;
-        width: 1190px;
+        top: 1810px;
+        width: 1197px;
         height: 1px;
-        /* position: absolute; */
-        left: auto;
+         position: absolute;
+         margin-left: auto;
+         margin-right: auto; 
+         margin: 0 auto;
     }
 .btn {
     display: inline-block;
@@ -328,8 +328,15 @@ background-position: center;
     font-weight: 600;
 border: 0;
 outline: none;
-
 }
+.box-btn {      
+    margin-top: 100px;
+    padding-bottom: 10px;
+        /* text-align: right; */
+        /* margin-left: 522px; */
+        /* padding: 4px; */
+        /* margin-top: ; */
+    }
 .last_title a{
     font-size: 14px;
     font-family: "Montserrat";
