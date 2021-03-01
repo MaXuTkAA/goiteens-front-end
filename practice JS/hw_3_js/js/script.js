@@ -10,7 +10,7 @@ console.log(Math.min(2, 34, 99, 3, 22, 36, 733, 18));
 console.log(Math.max(2, 34, 99, 3, 22, 36, 733, 18));
 
 
-//         3 завдання        //
+//         7 завдання        //
 const name = 'Viktor';
 const fullName =
   'My ' + 'name ' + 'is ' + name + '.';
@@ -53,16 +53,17 @@ console.log(typeof result); // string
 
   //         6 завдання        //
   const email  = 'revizor615@gmail.com';
+  console.log(email.includes('@'));
+
   console.log(email.length);
   //console.log('revizor615@gmail.com'.length);
 
 
   //         8 завдання        //
- const userName = 'Олександрa';
- const payment = '200';
- const a = ' Дякуємо, Олександро!';
- const b = ' До сплати "payment" гривень';
- alert(`Змінна userName = ${a}, змінна payment = ${b}`);
+  const userName = prompt('Доброго дня! Як Вас звати?');
+  const payment = prompt('Якою буде сума до оплати?');
+  
+  alert(`Дякуємо, ${userName}! До спплати ${payment} гривень.`);
 
 
 
