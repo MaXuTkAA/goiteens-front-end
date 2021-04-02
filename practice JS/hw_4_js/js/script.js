@@ -12,20 +12,22 @@ if (result) {
 
 
   //            2 завдання            //
-  const age = prompt ('Скільки Вам років?');
-  const children = num > 0 && num < 16;
-  const adults  = num > 17 && num < 60;
-  const pensioners  = num > 61 && num < 100;
-  const Name = 55 + 'Максим';
-  if (children){
-    alert ("Ви дитина")
-  } else if (adults){
-    alert ("Ви дорослий")
-  } else if (pensioners) {
-    alert ("Ви пенсіонер")
-}
-console.log (Name);
-
+  const MaxAge = 55;
+  if ((!Number.isNaN(MaxAge * 1)) && (MaxAge > 0)) {
+      if (MaxAge < 16) {
+          alert('Максим відноситься до групи малих дітей.');
+          console.log('Максим відноситься до групи малих дітей');
+      } else if (MaxAge >= 17 || MaxAge < 60) {
+          alert('Максим відноситься до групи дорослих людей.');
+          console.log('Максим відноситься до групи дорослих людей.');
+      } else if (MaxAge >= 61 || MaxAge < 100) {
+          alert('Максим відноситься до групи пенсіонерів.');
+          console.log('Максим відноситься до групи пенсіонерів.');
+      }
+  } else {
+      alert('БУДЬ ЛАСКА ВВЕДІТЬ КОРЕКТНЕ ЧИСЛО!!!');
+      console.log('БУДЬ ЛАСКА ВВЕДІТЬ КОРЕКТНЕ ЧИСЛО!!!');
+  };
 
 //            3 завдання            //
 const name = 'Максим';
